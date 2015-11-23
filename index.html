@@ -6,16 +6,162 @@
     <title>Periodic table of Gordon Ramsay</title>
   </head>
   <body>
-    <h1> Gordan Ramsay Periodic Table </h1>
+    <h1> Gordon Ramsay Periodic Table </h1>
+
+    <h3> WARNING: contains strong language </h3>
 
     <div id="periodic-table">
-      <button class="sound_button" id="test" onclick="playSound()">Test </button>
+
+
+      <table>
+        <tr>
+          <td><button class="sound_button" id="poodle" onclick="playSound(this.id)">PS</button></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button class="sound_button" id="ghandi" onclick="playSound(this.id)">GF</button></td>
+          <td><button class="sound_button" id="bison" onclick="playSound(this.id)">BP</button></td>
+        </tr>
+        <tr>
+          <td><button class="sound_button" id="dick" onclick="playSound(this.id)">CD</button></td>
+          <td><button class="sound_button" id="look" onclick="playSound(this.id)">L</button></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button class="sound_button" id="wtf" onclick="playSound(this.id)">WTF</button></td>
+          <td><button class="sound_button" id="arse" onclick="playSound(this.id)">FA</button></td>
+          <td><button class="sound_button" id="yankie" onclick="playSound(this.id)">YS</button></td>
+          <td><button class="sound_button" id="sue" onclick="playSound(this.id)">SM</button></td>
+          <td><button class="sound_button" id="non-stick" onclick="playSound(this.id)">NS</button></td>
+          <td><button class="sound_button" id="fuck-me" onclick="playSound(this.id)">FM</button></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
 
 <script>
-function playSound() {
-    document.getElementById("test").style.color = "red";
+function playSound(sound) {
+  var audio = new Audio('sounds/'+sound+'.m4a');
+  audio.play();
 }
 </script>
