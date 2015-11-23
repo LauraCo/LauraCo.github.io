@@ -1,4 +1,4 @@
-Periodic table retrieved from: https://github.com/MadeByMike/html5-periodic-table and built upon (see below)
+Periodic table retrieved from: https://github.com/MadeByMike/html5-periodic-table and used as inspiration.
 
 Periodic table of HTML 5 elements
 =================================
