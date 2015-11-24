@@ -205,3 +205,11 @@ td {
   background-image: linear-gradient(to bottom, #ff2e9f, #ff48ab);
   text-decoration: none;
 }
+
+#Lanthanide {
+	background: #800080;
+}
+
+#Actinide {
+	background: #ff1493;
+}
