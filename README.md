@@ -1,8 +1,6 @@
-Periodic table retrieved from: https://github.com/MadeByMike/html5-periodic-table and used as inspiration.
+Periodic Table of Gordon Ramsay's best moments
+===============================================
 
-Periodic table of HTML 5 elements
-=================================
+Periodic table inspiration from http://ptos.moderntoss.com/
 
-There have been a few different versions of this and it is not my original idea. This version is made with css only, so modern browsers please.
-
-<a href="http://madebymike.com.au/html5-periodic-table">http://madebymike.com.au/html5-periodic-table</a>
+Still under development - please contact me with any queries.
